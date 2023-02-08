@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+.image img {
+    border-radius: 10px;
+    outline: 5px solid oldlace;
+}
+
+
+.tab-btns .active {
+    background-color: #fff;
+    transition: .3s ease;
+}
+
+.about {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 30vh;
+}
+
+.tabContent {
+    display: none;
+    padding: 20px;
+}
+
+.tabContent.active {
+    display: block;
+}
+
+.tab-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-btn {
+    width: 100%;
+    padding: 5px;
+    background-color: #ddd;
+    border: none;
+}
